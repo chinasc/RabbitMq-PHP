@@ -10,11 +10,11 @@ class RabbitMqModel extends Model
 {
     public static $amqpConn = null;
     
-    public $routeKey = 'b5c2gshopper';
+    public $routeKey = '';
     
-    public $queueName = 'b5c2gshopper';
+    public $queueName = '';
     
-    public $exchangeName = 'gshopperExchange';
+    public $exchangeName = '';
     
     public $contentEncoding = 'UTF-8';
     
