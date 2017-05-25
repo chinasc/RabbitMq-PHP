@@ -49,10 +49,10 @@ class RabbitMqModel extends Model
     public function setConnConf()
     {
         return $conf = [
-            'host' => '172.16.113.83',  
-            'port' => '5672',  
-            'login' => 'gshopper',  
-            'password' => 'izene123', 
+            'host' => '',  
+            'port' => '',  
+            'login' => '',  
+            'password' => '', 
             'vhost'=>'/' 
         ];
     }
